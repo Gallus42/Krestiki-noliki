@@ -364,8 +364,6 @@ int computerMove(char board[9], char playerSymbol, char computerSymbol, int comp
 
         if (isFirstMove)
             return randomPos();
-        
-       
 
         int ret = possibleMoveByWeightArray(winWeights); // Иначе просто пытаемся выиграть
         if (ret != 0) 
@@ -483,14 +481,14 @@ int main()
     srand(time(NULL));
     int punctMenu;
     vector<string>firstmenu = { "Новая игра" , "Выход" };
-    vector<string>secondmenu = { "Лёгкий", "Средний", "Проще лото написать" };
+    vector<string>secondmenu = { "Лёгкий", "Средний", "Сложно" };
   
     while (true)
     {
         punctMenu = MufMENU(firstmenu);
         if (punctMenu == 0)
         {
-            gameCycle(MufMENU(secondmenu));
+            gameCycle(MufMENU(secondmenu) + 1);
             auto waitForInput = _getch();
             system("cls");
         }
