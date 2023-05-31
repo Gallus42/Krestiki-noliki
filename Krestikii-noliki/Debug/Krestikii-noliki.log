@@ -1,0 +1,10 @@
+﻿  Krestikii-noliki.cpp
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(27,24): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(27,26): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(66,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(377,27): warning C4154: удаление массива; выполнено преобразование к указателю
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(483,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(76): warning C4715: MufMENU: значение возвращается не при всех путях выполнения
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(378): warning C4715: computerMove: значение возвращается не при всех путях выполнения
+C:\Users\user\source\repos\Krestikii-noliki\Krestikii-noliki\Krestikii-noliki.cpp(300): warning C4172: возвращение адреса локальной или временной переменной : weights
+  Krestikii-noliki.vcxproj -> C:\Users\user\source\repos\Krestikii-noliki\Debug\Krestikii-noliki.exe
